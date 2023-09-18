@@ -2,8 +2,8 @@
 @section('title','Login')
 @section('content')
 <div class="mt-[100px]">
-²
-<div class="w-full lg:max-w-xs flex justify-center items-center">
+
+<div class="w-full lg:ml-[700px]  lg:max-w-xs flex justify-center items-center">
    
     <form class="bg-white w-full shadow-md rounded px-8 pt-6 pb-8" action="{{ Route('check-login') }}" method="POST"> @csrf
         <div class="mb-4">
