@@ -2,17 +2,8 @@
 @section('title','Login')
 @section('content')
 <div class="mt-[100px]">
-@if ($errors->any())
-    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-        <strong>Error:</strong> Please fix the following issues:
-        <ul>
-            @foreach ($errors->all() as $error)
-            <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-    @endif
-<div class="w-full flex justify-center items-center">
+²
+<div class="w-full lg:max-w-xs flex justify-center items-center">
    
     <form class="bg-white w-full shadow-md rounded px-8 pt-6 pb-8" action="{{ Route('check-login') }}" method="POST"> @csrf
         <div class="mb-4">
